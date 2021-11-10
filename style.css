@@ -1,0 +1,75 @@
+body {
+    width: 95%;
+    max-width: 800px;
+    background-image: url(img/Background-principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Red Hat Mono', monospace;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+main {
+    background-color: #00000087;
+    border-radius: 10px;
+    margin-top:20px;
+    padding: 5px 40px;
+}
+.band-name{
+    text-align: center;
+}
+.headline{
+    text-align: center;
+}
+.shows{
+    margin: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+.shows table{
+    background: red;
+    border-radius: 10px;
+}
+.paragrafo-telefone{
+ 
+color: red;
+padding: 10px;
+
+}
+.paragrafo-palestra{
+    color:red;
+    padding: 10px;
+}
